@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* Light gray background for the entire page */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        header {
+            background: #333; /* Dark background for the header */
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            background: #fff; /* White background for each section */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px; /* Rounded corners for sections */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+        .container {
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Skill Boxes */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-box {
+  background-color: #4b5253;
+  padding: 30px 20px;
+  text-align: center;
+}
+.skill-box h2 {
+  font-size: 1.5em;
+  color: #efecf2;
+  text-transform: capitalize;
+}
+/* Hover effect */
+.skill-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc; /* Border for input fields */
+            border-radius: 4px; /* Rounded corners for input fields */
+        }
+
+        button {
+            padding: 10px;
+            background: #333; /* Dark background for the button */
+            color: #fff;
+            border: none;
+            border-radius: 4px; /* Rounded corners for the button */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555; /* Darker background on hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333; /* Dark background for the footer */
+            color: #fff;
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            background-color: #1a1a1a; /* Dark background for the entire page */
+            color: #f4f4f4; /* Light text color */
+        }
+
+        header.dark-mode {
+            background: #222; /* Darker background for the header */
+        }
+
+        section.dark-mode {
+            background: #333; /* Dark background for sections */
+            color: #f4f4f4; /* Light text color */
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Kanishka K</h1>
+        <h2> FULL STACK DEVELOPER</h2>
+       <center> <h3> II BCA At KGCAS </h3> </center>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#my skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="toggle-theme">Toggle blue/Light Mode</button>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1> <br><br>
+        <center><p> welcome to my portfolio created using Html,CSS and JavaScript</p>.</p>
+    </div></center>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <center><p>As a Full Stack Developer, I specialize in building and maintaining dynamic, scalable web applications. With a strong understanding of both front-end and back-end technologies, I bridge the gap between user experience and server-side operations. I focus on writing clean, efficient, and maintainable code, ensuring seamless integration across multiple platforms.
+            </p>
+    </center>
+
+    <section id="education">
+        <center><h2>Education</h2>
+ <ul>High School- Ambal Matric Hr Secondary School (2023)</li>
+            <li>UG-Bachelor of Computer Applications</li>
+        </ul>
+    </section></center>
+    <center><div class="container">
+        <h1 class="title">My Skills</h1>
+        <div class="skills">
+          <div class="skill-box">
+            <h2>HTML</h2>
+          </div>
+          <div class="skill-box">
+            <h2>CSS</h2>
+          </div>
+          <div class="skill-box">
+            <h2>JavaScript</h2>
+          </div>
+          <div class="skill-box">
+            <h2>React</h2>
+          </div>
+          <div class="skill-box">
+            <h2>Python</h2>
+
+                </div>
+          </div>
+        </div>
+      </div></center>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+        <center>   <h3>Project 1</h3>
+        <p>Description of project 1. This project showcases my skills in HTML, CSS, and JavaScript.</p></center>
+        </div>
+        <div class="project">
+           <center><h3>Project 2</h3>
+            <p>Description of project 2. This project demonstrates my ability to create responsive web applications.</p></center>
+        </div>
+    </section>
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>My Portfolio</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission handling
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Simple form validation
+            const name = this.querySelector('input[type="text"]').value;
+            const email = this.querySelector('input[type="email"]').value;
+            const message = this.querySelector('textarea').value;
+
+            if (name && email && message) {
+                alert('Thank you for your message!');
+                this.reset();
+            } else {
+                alert('Please fill in all fields.');
+            }
+        });
+
+        // Dark/Light mode toggle
+        const toggleButton = document.getElementById('toggle-theme');
+        toggleButton.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            document.querySelector('header').classList.toggle('dark-mode');
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.toggle('dark-mode');
+            });
+        });
+    </script>
+</body>
+</html>
